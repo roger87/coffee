@@ -16,11 +16,29 @@ img {
   width: 50px;
 }
 
+.banner ul {
+  height: 10px;
+  width: 1200px;
+  margin: 100px auto ;
+  text-align: center;
+}
+
+.banner ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.banner ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
 /* 導覽列 */
 nav {
     display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 30px 100px;
+    /* grid-template-columns: 50% 50%; */
+    padding: 20px 10px;
     /* 定位：固定 */
     position: fixed;
     /* 上：0 bottom 下 */
@@ -37,15 +55,15 @@ nav {
 }
 
 #nav {
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
     /* 對齊項目(垂直) */
     align-items: center;
     text-align: center;
 }
 
-#nav a {
+#nav li li{
     /* 文字-裝飾 - 底線、刪除線 */
     text-decoration: none;
     color: white;
@@ -55,7 +73,7 @@ nav {
 }
 
 /* :hover 滑入 */
-#nav a:hover {
+#nav :hover {
     color: #f2a774;
     font-size: 22px;
 }
