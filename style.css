@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+img {
+  width: 50px;
+}
+
 /* 導覽列 */
 nav {
     display: grid;
