@@ -137,7 +137,7 @@ label {
   }
   
   input::placeholder{
-    color:#8feeff;
+    columns: #333333;;
   }
   
   #button{
