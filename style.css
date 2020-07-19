@@ -18,13 +18,13 @@ img {
 
 .banner ul {
   width: 1000px;
-  margin: 10px auto ;
+  margin: 30px auto ;
   text-align: center;
 }
 
 .banner ul li {
   display: inline-block;
-  margin: 20px;
+  margin: 30px;
 }
 
 .banner ul li a {
@@ -37,12 +37,12 @@ img {
 nav {
     display: grid;
     /* grid-template-columns: 50% 50%; */
-    padding: 20px 10px;
+    padding: 10px 10px;
     /* 定位：固定 */
     position: fixed;
     /* 上：0 bottom 下 */
     top: 0;
-    background: rgba(169, 226, 235);
+    background: #4698cb;
     color: white;
     width: 100%;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
