@@ -1,3 +1,4 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 @font-face {
     font-family: Ngaan;
     src: url(./font/I.Ngaan.ttf);
@@ -78,7 +79,7 @@ nav {
 /* 橫幅 */
 #banner {
     /* 背景圖片 */
-    background-image: url(./img/coffee.jpg);
+    background-image: url(./img/coffee1.jpg);
     /* 背景大小：填滿 */
     background-size: cover;
 
@@ -91,70 +92,56 @@ nav {
     align-items: center;
 }
 
-#name ,#email, #call, textarea{
-    padding:10px;
-    margin:20px auto;
-    width:100%;
-    border-radius: 5px;
-    border:1px solid #d1d1d1;
+.content {
+    width: 1200px;
+    margin: 0 auto;
   }
   
-  form {
-      width: 600px;
-      margin: 30px auto;
-      padding: 30px 70px;
+  .content .title {
+    text-align: center;
   }
   
-  h1 {
-    text-align:center;
-    margin-top: 50px;
-    color: rgba(0, 0, 0, 0.5);
+  .content .title h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 48px 0 57px 0;
   }
   
-  fieldset {
-    margin:10px 0;
-    padding:10px 15px;
+  .content .title p {
+    font-size: 18px;
+    margin-bottom: 82px;
   }
   
-label {
-    color:#16b1e0;
-}
-  
-  fieldset label, label[for="agree"]{
-    display: inline;
+
+
+  .content .productBox {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    grid-gap: 20px;
   }
   
-  input[type="checkbox"] {
-      height: 22px;
-      width: 22px;
-      vertical-align: middle;
+  .content .productBox .product img {
+    width: 100%;
   }
   
-  body {
-    background-image: url(./img/背景.png);
+  .content .productBox .product h2 {
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    text-align: center;
   }
   
-  input::placeholder{
-    columns: #333333;;
-  }
-  
-  #button{
-    text-align:center;
-    margin-top:30px;
-  }
-  
-  input[type="submit"], input[type="reset"]{
-    background-color:#3c98cc;
-    color:#ffffff;
-    border:0;
-    padding:15px 50px;
-    margin:0 10px;
-    font-size:10px;
+  .content .productBox .product p {
+    font-size: 18px;
+    line-height: 2;
   }
 
+  
   footer {    
     padding: 50px;
     text-align: center;
     background: #4589ad;
     color: white;
   }
+  
