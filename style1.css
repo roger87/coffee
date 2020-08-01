@@ -101,6 +101,10 @@ nav {
     text-align: center;
   }
   
+  body {
+    background-image: url(./img/背景.png);
+  }
+
   .content .title h1 {
     font-size: 60px;
     font-weight: 900;
